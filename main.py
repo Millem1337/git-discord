@@ -49,4 +49,4 @@ def git() -> int:
     return 200
 
 if __name__ == "__main__":
-    app.run(os.getenv("HOST"), os.getenv("PORTs"), True)
+    app.run(os.getenv("HOST"), os.getenv("PORT"), True)
